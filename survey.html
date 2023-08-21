@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet">
+  <link href="navbar.css" rel="stylesheet">
+
+</head>
+  
+<body>
+  <script type="text/javascript" src="chatgpt.js"></script>
+
+ 
+  <div class = "surveyPanel">
+    <div class = "surveyContainer">
+      <div class = "surveyQuestions">
+        <h1>Career Pathfinder</h1>
+        <hr>
+        
+        <form action = "survey.php" method = "post" id = "surveyForm">
+          
+        <p>Education Level</p>
+        <select id = "educationLvl" form = "surveyForm" name = "educationLvl" required>
+          <option value = "">Education Level</option>
+          <option value = "secondary">Secondary</option>
+          <option value = "post-secondary">Post-Secondary</option>
+          <option value = "undergraduate">Undergraduate</option>
+        </select>
+
+        <p>Which industries or sector interest you?</p>
+          <select id = "salary" form = "surveyForm" name = "industry" required>
+          <option value = "">Your Desired Industry</option>
+          <option value = "Technology">Technology</option>
+          <option value = "Healthcare">Healthcare</option>
+          <option value = "Arts, Entertainment and Recreation">Arts, Entertainment and Recreation</option>
+          <option value = "Accommodation and Food Services">Accommodation and Food Services</option>
+          <option value = "Agriculture">Agriculture</option>
+          <option value = "Retail Trade">Retail Trade</option>
+          <option value = "Wholesale Trade">Wholesale Trade</option>
+          <option value = "Construction">Construction</option>
+          <option value = "Professional, Scientific and Technical Services">Professional, Scientific and Technical Services</option>
+          <option value = "Finance and Insurance">Finance and Insurance</option>
+          <option value = "Manufacturing">Manufacturing</option>
+            
+        </select>
+
+
+         <p>Preferred Company Size</p>
+        <select id = "salary" form = "surveyForm" name = "companySize" required>
+          <option value = "">Your Preferred Company Size</option>
+          <option value = "startup">Startup</option>
+          <option value = "small business">Small business</option>
+          <option value = "large corporation">Large corporation</option>
+          
+        </select>
+
+          
+        <p>Desired Salary</p>
+        <select id = "salary" form = "surveyForm" name = "salary" required>
+          <option value = "">Your Desired Annual Salary</option>
+          <option value = "less than $30,000"><$30,000</option>
+          <option value = "50-100k">$50,000 - $100,000</option>
+          <option value = "100-160k">$100,000 - $160,000</option>
+          <option value = "160-230k">$160,000 - $230,000</option>
+          <option value = "more than $235,000">>$235,000</option>
+        </select>
+
+  
+        <p>Which of these environments do you prefer?</p>
+          <select id = "salary" form = "surveyForm" name = "environment" required>
+          <option value = "">Desired work environment</option>
+          <option value = "office">Office</option>
+          <option value = "remote">Remote</option>
+          <option value = "outdoors">Outdoors</option>
+        </select>
+
+          <p>What level of responsibility and leadership are you comfortable with?</p>
+          <select id = "salary" form = "surveyForm" name = "leadership" required>
+          <option value = "">Leadership level</option>
+          <option value = "low">Low Responsibility and Leadership</option>
+          <option value = "moderate">Moderate Responsibility and Leadership</option>
+          <option value = "high">High Responsibility and Leadership</option>
+        </select>
+
+          <p>How do you handle pressure and deadlines?</p>
+          <select id = "salary" form = "surveyForm" name = "deadlineEffectiveness" required>
+          <option value = "">Deadline Effectiveness</option>
+          <option value = "Less effectively">Less Effective</option>
+          <option value = "Moderately effectively">Moderately Effective</option>
+          <option value = "Effectively">Effective</option>
+          <option value = "Very effectively">Very Effective</option>
+        </select>
+        
+
+          <p>Do you enjoy working in a team environment?</p>
+          <input type = "radio" name = "team" value = "like teamwork environment" required>
+          <lable for = "yesTeam" class = "surveyLabel">Yes</lable>
+
+          <input type = "radio" name = "team" value = "don't like teamwork environment" required>
+          <lable for = "noTeam" class = "surveyLabel">No</lable>
+        </select>
+
+          <p>Are you willing to pursue additional education or training for your desired job?</p>
+          <input type = "radio" name = "additionEdu" value = "like to take addition education" required>
+          <lable class = "surveyLabel">Yes</lable>
+
+          <input type = "radio" name = "additionEdu" value = "not like to take additon education" required>
+          <lable  class = "surveyLabel">No</lable>
+        </select>
+
+          <p>Are you comfortable with public speaking or presenting in your job?</p>
+          <input type = "radio" name = "pubSpeaking" value = "like public speaking" required>
+          <lable class = "surveyLabel">Yes</lable>
+
+          <input type = "radio" name = "pubSpeaking" value = "don't like public speaking" required>
+          <lable  class = "surveyLabel">No</lable>
+
+          <p>Are you willing to relocate for the right job opportunity?</p>
+          <input type = "radio" name = "relocate" value = "willing to" required>
+          <lable class = "surveyLabel">Yes</lable>
+
+          <input type = "radio" name = "relocate" value = "not willing to" required>
+          <lable  class = "surveyLabel">No</lable>
+
+          <p>Do you prefer a strucutred routine or a flexible schedule?</p>
+          <input type = "radio" name = "schedule" value = "structured routine" required>
+          <lable class = "surveyLabel">Structured Routine</lable>
+
+          <input type = "radio" name = "schedule" value = "flexible schedule" required>
+          <lable  class = "surveyLabel">Flexible Schedule</lable>
+ 
+
+          <br>
+          <br>
+          <br>
+          <input type = "submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+
+</body>
+</html>

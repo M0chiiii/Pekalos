@@ -1,0 +1,503 @@
+@import url(https://db.onlinewebfonts.com/c/0cba37c07aa452473620e66c7b22e030?family=Lao+Sans+Pro);
+
+a:hover, a:visited:hover {
+  color: #ffffff;
+}
+
+
+body {
+  background-color: #eeecdd;
+  color: #222020;
+  margin:0;
+  padding:0;
+  font-family: "Lao Sans Pro";
+}
+
+.banner {
+  background-image: url('Images/Banners/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 70%;
+  z-index:1;
+  position: sticky;
+  top: 85px;
+
+}
+
+.banner p{
+  font-family: "Lao Sans Pro";
+  color: #ffffff;
+  font-size: 30px;
+  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  width: 30vw;
+  margin-top: 0;
+}
+
+.panel{
+  z-index:20;
+  height: 500px;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  background-color: #eeecdd;
+  position:relative;
+}
+
+.sticky{
+  position: sticky; 
+  top: 0;
+}
+
+.paths{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  height: auto;
+  z-index: 2;
+}
+
+.paths img{
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.expand {
+  transition: transform .35s;
+}
+
+.opacity:hover {
+  opacity: 0.85;
+}
+
+.expand:hover {
+  transform: scale(1.2);
+}
+
+
+table, th, td{
+  border: 5vw solid rgba(255, 0, 0, 0.0);
+  border-collapse: collapse;
+  table-layout: fixed;
+  
+}
+
+td{
+  width:40vw;
+}
+
+.verified {
+  font-family: "Lao Sans Pro";
+  color: #222020;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 300px;
+  text-align:center;
+}
+
+
+
+/* Login Page */
+/*==================================*/
+.loginmenu {
+  width: 30%;
+  height: 50%;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  background-color: #FFFFFF;
+}
+
+.loginmenu .logintext {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.logintext input[type=text], .logintext input[type=password]{
+  width: 100%;
+  height: 7.5%;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+.logintext input[type=submit] {
+  width: 100%;
+  height: 10%;
+  border: none;
+  font-family: "Lao Sans Pro";
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.logintext input[type=submit]:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+  color: #f98b8b;
+}
+
+.logintext a {
+  width: 24.5%;
+  position: absolute;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Lao Sans Pro";
+  font-size: 100%;
+  color: #222020;
+  border: 1px solid #000000;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+.logintext a:hover, .logintext a:hover:visited {
+  transform: scale(0.95);
+  transition-duration: 0.8s;
+  background-color: #f5f5f5;
+}
+
+.logintext a:visited {
+  text-decoration: none;
+  color: #222020
+}
+
+
+/* Sign Up */
+/* =============================== */
+
+.signupmenu {
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 45%;
+  width: 30%;
+  top: 15%;
+  left: 35%;
+}
+
+.signupmenu .signuptext {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+  font-family: "Lao Sans Pro";
+}
+
+.signuptext input[type=text], .signuptext input[type=email], .signuptext input[type=password] {
+  height: 6%;
+  width: 100%;
+  font-family: "Lao Sans Pro";
+  font-size: 100%;
+}
+
+.signuptext input[type=submit] {
+  height: 9%;
+  width: 100%;
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  border: none;
+}
+
+.signuptext input[type=submit]:hover {
+  color: #f98b8b;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Survey */
+/* =============================== */
+.surveyBG{
+  background-image: url('Images/Background/background1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+  z-index:1;
+  position: sticky;
+  top: 85px;
+}
+
+.surveyPanel{
+  background-image: url('Images/Background/background1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 280%;
+  z-index:1;
+  background-attachment: fixed;
+  top: 85px;
+  padding-bottom: 10%;
+  padding-top: 7%;
+}
+
+.surveyContainer{
+  height: 100%;
+  width: 50%;
+  background-color: rgba(15,15,15,0.99);
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 8;
+  position: relative;
+  border-radius: 50px;
+  
+}
+
+.surveyContainer div{
+  margin-left: auto;
+  margin-right: auto; 
+  width: 85%;
+  padding-top: 2vh;
+}
+
+.surveyResultPanel {
+  background-image: url('Images/Background/background1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 120%;
+  z-index:1;
+  background-attachment: fixed;
+  top: 85px;
+  padding-bottom: 10%;
+  padding-top: 7%;
+}
+
+.surveyQuestions p{
+  font-size: 2vw;
+  font-family: "Lao Sans Pro";
+  color: #f7f7f7;
+}
+
+.surveyQuestions h1{
+  font-size: 3vw;
+  font-family: "Lao Sans Pro";
+  color: #f7f7f7;
+}
+
+.surveyLabel{
+  font-size: 1.3vw;
+  font-family: "Lao Sans Pro";
+  color: #f7f7f7;
+  margin: 10px;
+}
+
+.surveyQuestions select{
+  height: 5vh;
+  width: 70%;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.surveyContainer input[type=radio]{
+  font: inherit;
+  color: inherit;
+  width: 20px;
+  height: 20px;
+  border: 0.15em solid inherit;
+  border-radius: 50%;
+}
+
+.surveyContainer input[type=submit]{
+  font: inherit;
+  font-size: 2vh;
+  color: inherit;
+  width: 7vw;
+  height: 5vh;
+  border-radius: 50px;
+}
+
+
+.surveyResult{
+  font-size: 1.3vw;
+  font-family: "Lao Sans Pro";
+  color: #f7f7f7;
+}
+
+.surveyResult h1{
+  font-size: 3vw;
+  font-family: "Lao Sans Pro";
+  color: #f7f7f7;
+}
+
+.surveyResult li{
+  list-style-type: circle;
+}
+.surveyResultNumList li, h1{
+  list-style-type: numbers;
+  font-size: 3vw;
+  font-family: "Lao Sans Pro";
+  color: #f7f7f7;
+}
+
+
+
+/* education stuff */
+
+.flex{
+  display:flex;
+}
+
+.hideoverflow{
+  overflow:hidden;
+}
+
+.flex_column{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex_row{
+  display:flex;
+  flex-direction:row;
+}
+
+.justifycenter{
+  justify-content:center;
+}
+
+.aligncenter{
+  align-items:center;
+}
+
+.top85{
+  top:85px;
+}
+.box_wrapper{
+  height:70vh;
+  padding:5vw;
+}
+
+.box_wrapper img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.education_box{
+  height:30vh;
+  width:20vw;
+  margin:5vh;
+  border-radius:60px;
+  color:black;
+}
+
+.height70{
+  height:70vh;
+}
+
+.width20{
+  width:20vw;
+}
+
+.marginlr5{
+  margin-left:2.5vw;
+  margin-right:2.5vw;
+}
+
+.red{
+  background-color:#E63946;
+}
+
+.lightblue{
+  background-color:#457B9D;
+}
+
+.darkblue{
+  background-color:#465677;
+}
+
+.green{
+  background-color:#4ED32C;
+}
+
+.yellow{
+  background-color:#F9C74F;
+}
+
+.turqoise{
+  background-color:#3FE193;
+}
+
+a{
+  text-align:center;
+  text-decoration:none;
+}
+
+
+
+/* Profile */
+/* ============================ */
+#profile_container {
+  background-image: url("Images/Background/profile_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 80vh; 
+  margin-top: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  position: absolute;
+}
+
+#profile_bio {
+  background-color: rgba(15,15,15,0.95); 
+  width: 55vw;
+  height: 20vh;
+  margin: 35px;
+}
+
+#profile_bio img {
+  opacity: 1;
+  margin: 10px;
+  width: calc(20vh - 20px);
+  height: calc(20vh - 20px);
+  float: left;
+}
+
+#profile_career {
+  background-color: rgba(15,15,15,0.95);
+  width: 55vw;
+  height: 47.5vh;
+  margin: 35px;
+}
+
+#profile_social {
+  top: 0;
+  right: 0;
+  background-color: rgba(15,15,15,0.95);
+  width: 20vw;
+  height: calc(47.5vh + 35px + 20vh);
+  margin: 35px;
+  position: absolute;
+}
+
+
+.header h1{
+  font-weight: bold;
+  font-size: 36px;
+  color: #ffffff;
+  margin: 15px;
+  margin-bottom: 0;
+  float: left;
+}
+
+.header h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-top: 5px;
+  float: left;
+}
+

@@ -1,0 +1,155 @@
+@import url(https://db.onlinewebfonts.com/c/0cba37c07aa452473620e66c7b22e030?family=Lao+Sans+Pro);
+
+#navbar{
+  display:flex;
+  height:85px;
+  background-color:#272727;
+  overflow-y:visible;
+  z-index: 50;
+}
+
+#sidenavbar{
+  top: 85px;
+  width: 0;
+  height: 100vh;
+  left: 0;
+  background-color:#272727;
+  visibility:visible;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#menubutton{
+  position: absolute;
+  height:85px;
+  width:85px;
+  padding:0px;
+  margin:0px;
+  background: transparent;
+  border: none;
+  z-index: 10;
+
+}
+
+#menubutton img{
+  height:85px;
+  width:85px;
+  visibility:visible;
+  z-index: 9;
+}
+
+#menubutton img:hover {
+  transform: scale(1.15);
+  transition-duration: .8s;
+  cursor: pointer;
+}
+
+#profilebutton img{
+  right: 20px;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+#profilebutton img:hover {
+  transform: scale(1.15);
+  transition-duration: .8s;
+}
+
+#logobutton img {
+  height: 100%;
+  left: 65px;
+  position: absolute;
+}
+
+/*
+#logobutton img:hover{
+  transform: scale(0.95);
+  transition-duration: .8s;
+}
+*/
+
+#profilename {
+  position: absolute;
+  color: #ffffff;
+  font-family: "Lao Sans Pro";
+  right: 120px;
+  bottom: 30px;
+  font-size: 20px;
+} 
+
+.container {
+  width:40vw;
+  height:75px;
+  padding:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  left:30%;
+  position:absolute;
+  flex-direction:column;
+  overflow-y:visible;
+}
+
+.searchbar{
+  width:100%;
+  display:flex;
+  align-items:center;
+  border-radius:60px;
+  background-color:white;
+  height:65px;
+  margin-top:15px;
+  position:absolute;
+
+}
+
+.searchbar input{
+  background:transparent;
+  flex:1;
+  border:0;
+  outline:none;
+  padding:24px;
+  font-size:20px;
+  color:black;
+  border-radius:40px;
+  position:absolute;
+
+}
+
+.results {
+  top:80px;
+  width:100%;
+  position:absolute;
+}
+
+.buffer_top{
+  height:10px;
+  border-top-left-radius:80px;
+  border-top-right-radius:80px;
+  background-color:white;
+}
+.buffer_bottom{
+  height:10px;
+  border-bottom-left-radius:80px;
+  border-bottom-right-radius:80px;
+  background-color:white;
+}
+
+.results a{
+  font-size:20px;
+  text-decoration: none;
+}
+
+.single_result{
+  width:100% - 20px;
+  background-color:white;
+  padding-left:20px;
+  padding-top:8px;
+  padding-bottom:8px;
+  color:black;
+}
+
+.single_result:hover{
+  background-color:grey;
+}
